@@ -163,7 +163,7 @@ except IOError:
     kok.close()
     print(key)
  
-a=requests.get("https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt
+a=requests.get("https://github.com/jahied/EC-170/blob/main/Random-Pro.txt").text
 b=str(a)
 key1=open("/storage/emulated/0/android8.txt",'r').read()
 key2=str(key1)  
@@ -175,8 +175,15 @@ else:
     print
     print("Your key  : "+key2)
     print("\n\t\tContact Admin ")
-    os.system('xdg-open https://wa.me/+9660507886506')
+    os.system('xdg-open https://wa.me/+8801747951169')
     exit()
+ 
+ 
+def linex():
+        print('\033[1;37m----------------------------------------------')
+def clear():
+        os.system('clear')
+        print(logo)
 
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
